@@ -1,0 +1,26 @@
+{
+    "name": "hongfs/think-schema",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hongfs\\ThinkSchema\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hongfs",
+            "email": "hong@hongfs.cn"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "topthink/framework": "^8.0"
+    },
+    "extra": {
+        "think":{
+            "services":[
+                "Hongfs\\ThinkSchema\\Service"
+            ]
+        }
+    }
+}
